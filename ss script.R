@@ -196,5 +196,6 @@ stargazer(plmpooled, plmfixed, type="text")
 
 anova(rho3, plmfixed)
 
+Better version
 
 
