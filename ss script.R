@@ -196,13 +196,5 @@ stargazer(plmpooled, plmfixed, type="text")
 
 anova(rho3, plmfixed)
 
-#6 Henrter innbypros---
-d7 <- d %>%
-  group_by(kommune) %>%
-  mutate(changepros63 = innbypros - lag(innbypros, 63))
-d7 <- d7 %>% filter(year==2015)
-d7 <- d7 %>% arrange(desc(changepros63))
-d7[1,"kommune"] 
-df <- d7 %>% select("kommune", "country", "changepros63", "innbypros")
-print(df, n=116)
+
 
