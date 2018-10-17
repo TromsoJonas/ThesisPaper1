@@ -12,6 +12,8 @@ library(forecast)
 library(stargazer)
 ss <- read_dta("C:/Users/jse022/Dropbox/Documents/Doktorgrad UiT/Artikkel striking similarities/ss.dta")
 
+
+
 #1. Data management----
 #Creating variable Sweden and Norway 
 d <- ss
